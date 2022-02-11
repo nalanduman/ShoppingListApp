@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330FFDD527B67A7A00F943EA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 330FFDD427B67A7A00F943EA /* README.md */; };
+		330FFDD727B67ABF00F943EA /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 330FFDD627B67ABF00F943EA /* screenshot1.png */; };
+		330FFDDA27B67AC500F943EA /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 330FFDD827B67AC500F943EA /* screenshot2.png */; };
+		330FFDDB27B67AC500F943EA /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 330FFDD927B67AC500F943EA /* screenshot3.png */; };
+		330FFDDD27B67AC900F943EA /* screenshot4.png in Resources */ = {isa = PBXBuildFile; fileRef = 330FFDDC27B67AC900F943EA /* screenshot4.png */; };
 		33D64395276E698F00C5CD98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D64394276E698F00C5CD98 /* AppDelegate.swift */; };
 		33D64397276E698F00C5CD98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D64396276E698F00C5CD98 /* SceneDelegate.swift */; };
 		33D64399276E698F00C5CD98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D64398276E698F00C5CD98 /* ViewController.swift */; };
@@ -18,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		330FFDD427B67A7A00F943EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		330FFDD627B67ABF00F943EA /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot1.png; path = ../../../../Desktop/screenshot1.png; sourceTree = "<group>"; };
+		330FFDD827B67AC500F943EA /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot2.png; path = ../../../../Desktop/screenshot2.png; sourceTree = "<group>"; };
+		330FFDD927B67AC500F943EA /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot3.png; path = ../../../../Desktop/screenshot3.png; sourceTree = "<group>"; };
+		330FFDDC27B67AC900F943EA /* screenshot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot4.png; path = ../../../../Desktop/screenshot4.png; sourceTree = "<group>"; };
+		330FFDDE27B67AD100F943EA /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		330FFDDF27B67AD100F943EA /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		330FFDE027B67AD100F943EA /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		330FFDE127B67AD100F943EA /* screenshot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot4.png; sourceTree = "<group>"; };
 		33D64391276E698F00C5CD98 /* ShoppingListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D64394276E698F00C5CD98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D64396276E698F00C5CD98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +58,11 @@
 		33D64388276E698F00C5CD98 = {
 			isa = PBXGroup;
 			children = (
+				330FFDD427B67A7A00F943EA /* README.md */,
+				330FFDDF27B67AD100F943EA /* screenshot1.png */,
+				330FFDE027B67AD100F943EA /* screenshot2.png */,
+				330FFDDE27B67AD100F943EA /* screenshot3.png */,
+				330FFDE127B67AD100F943EA /* screenshot4.png */,
 				33D64393276E698F00C5CD98 /* ShoppingListApp */,
 				33D64392276E698F00C5CD98 /* Products */,
 			);
@@ -69,6 +88,10 @@
 				33D643A2276E699000C5CD98 /* LaunchScreen.storyboard */,
 				33D643A5276E699000C5CD98 /* Info.plist */,
 				33D6439D276E698F00C5CD98 /* ShoppingListApp.xcdatamodeld */,
+				330FFDD627B67ABF00F943EA /* screenshot1.png */,
+				330FFDD827B67AC500F943EA /* screenshot2.png */,
+				330FFDD927B67AC500F943EA /* screenshot3.png */,
+				330FFDDC27B67AC900F943EA /* screenshot4.png */,
 			);
 			path = ShoppingListApp;
 			sourceTree = "<group>";
@@ -131,9 +154,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330FFDDB27B67AC500F943EA /* screenshot3.png in Resources */,
+				330FFDDA27B67AC500F943EA /* screenshot2.png in Resources */,
 				33D643A4276E699000C5CD98 /* LaunchScreen.storyboard in Resources */,
 				33D643A1276E699000C5CD98 /* Assets.xcassets in Resources */,
+				330FFDDD27B67AC900F943EA /* screenshot4.png in Resources */,
+				330FFDD527B67A7A00F943EA /* README.md in Resources */,
 				33D6439C276E698F00C5CD98 /* Main.storyboard in Resources */,
+				330FFDD727B67ABF00F943EA /* screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
